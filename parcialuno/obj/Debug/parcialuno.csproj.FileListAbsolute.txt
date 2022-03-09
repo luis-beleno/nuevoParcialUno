@@ -1,0 +1,8 @@
+C:\Users\luisb\Desktop\Conducta_Entrada\parcialuno\parcialuno\bin\Debug\parcialuno.exe.config
+C:\Users\luisb\Desktop\Conducta_Entrada\parcialuno\parcialuno\bin\Debug\parcialuno.exe
+C:\Users\luisb\Desktop\Conducta_Entrada\parcialuno\parcialuno\bin\Debug\parcialuno.pdb
+C:\Users\luisb\Desktop\Conducta_Entrada\parcialuno\parcialuno\obj\Debug\parcialuno.exe
+C:\Users\luisb\Desktop\Conducta_Entrada\parcialuno\parcialuno\obj\Debug\parcialuno.pdb
+C:\Users\luisb\Desktop\Conducta_Entrada\parcial\parcialuno\bin\Debug\parcialuno.exe.config
+C:\Users\luisb\Desktop\Conducta_Entrada\parcial\parcialuno\obj\Debug\parcialuno.exe
+C:\Users\luisb\Desktop\Conducta_Entrada\parcial\parcialuno\obj\Debug\parcialuno.pdb
