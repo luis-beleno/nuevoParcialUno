@@ -25,15 +25,18 @@ namespace parcial
     {
         public String blogId;
         public String blogName;
+        public String blogDate;
 
         public String BlogId { get { return blogId; } set { blogId = value; } }
         public String BlogName { get { return blogName; } set { blogName = value; } }
+        public String BlogDate { get { return blogDate; } set { blogDate = value; } }
 
-        public Blogs(String _blogId, String _blogName, String _codigo = null, String _usuario = null)
+        public Blogs(String _blogId, String _blogName, String _codigo = null, String _usuario = null, String _blogDate = null)
             : base(_codigo, _usuario)
         {
             this.blogId = _blogId;
             this.blogName = _blogName;
+            this.blogDate = _blogDate;
         }
 
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace parcialuno
+namespace parcial
 {
     class Program
     {
@@ -70,7 +70,7 @@ namespace parcialuno
                                 Console.WriteLine("Nombre del Blog");
                                 String blogName = Console.ReadLine();
 
-                                ListaBlogs.Add(new Blogs(blogId, blogName, ListaUsuario[i].Codigos, ListaUsuario[i].Usuarios));
+                                ListaBlogs.Add(new Blogs(blogId, blogName, ListaUsuario[i].Codigos, ListaUsuario[i].Usuarios, DateTime.Now.ToString()));
                                 Console.WriteLine("--------------------------------------------------");
                             }
                         }
@@ -87,7 +87,8 @@ namespace parcialuno
                             {
                                 Console.WriteLine("Codigo del blog ["+ ListaBlogs[i].BlogId+ "]");
                                 Console.WriteLine("Usuario ["+ ListaBlogs[i].Usuarios+ "] ID ["+ ListaBlogs[i].BlogId+ "]");
-                                Console.WriteLine("Nombre del Blog ["+ ListaBlogs[i].BlogName+ "]");
+                                Console.WriteLine("Nombre del Blog [" + ListaBlogs[i].BlogName + "]");
+                                Console.WriteLine("Fecha de Creacion [" + ListaBlogs[i].BlogDate + "]");
                                 Console.WriteLine("--------------------------------------------------");
                             }
                         }
